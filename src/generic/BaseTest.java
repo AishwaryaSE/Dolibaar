@@ -35,12 +35,9 @@ public abstract class BaseTest implements IAutoConst {
 		}
 		else {
 			Reporter.log(name+"is failed",true);
-			AutoUtil.getPhoto(driver, IMG_PATH, name);
+			AutoUtil.getPhoto(driver, IMG_PATH,name);
 		}
 		driver.close();
-		
-			
-		
 		
 	}
 

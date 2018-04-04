@@ -5,15 +5,15 @@
       <![CDATA[nullis failed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="181" started-at="2018-03-12T14:55:53Z" finished-at="2018-03-12T14:55:53Z">
+  <suite name="Default suite" duration-ms="157" started-at="2018-03-27T13:11:30Z" finished-at="2018-03-27T13:11:30Z">
     <groups>
       <group name="login">
         <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:script.InvalidLogin@6d4b1c02]" name="testInvalidLogin" class="script.InvalidLogin"/>
       </group> <!-- login -->
     </groups>
-    <test name="Default test" duration-ms="181" started-at="2018-03-12T14:55:53Z" finished-at="2018-03-12T14:55:53Z">
+    <test name="Default test" duration-ms="157" started-at="2018-03-27T13:11:30Z" finished-at="2018-03-27T13:11:30Z">
       <class name="script.InvalidLogin">
-        <test-method status="FAIL" signature="OpenApp()[pri:0, instance:script.InvalidLogin@6d4b1c02]" name="OpenApp" is-config="true" duration-ms="15" started-at="2018-03-12T14:55:53Z" finished-at="2018-03-12T14:55:53Z">
+        <test-method status="FAIL" signature="OpenApp()[pri:0, instance:script.InvalidLogin@6d4b1c02]" name="OpenApp" is-config="true" duration-ms="30" started-at="2018-03-27T13:11:30Z" finished-at="2018-03-27T13:11:30Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/openqa/selenium/remote/RemoteWebDriver]]>
@@ -73,7 +73,7 @@ at java.lang.ClassLoader.loadClass(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method status="SKIP" signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@6d4b1c02]" name="testInvalidLogin" duration-ms="0" started-at="2018-03-12T14:55:53Z" finished-at="2018-03-12T14:55:53Z">
+        <test-method status="SKIP" signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@6d4b1c02]" name="testInvalidLogin" duration-ms="0" started-at="2018-03-27T13:11:30Z" finished-at="2018-03-27T13:11:30Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/openqa/selenium/remote/RemoteWebDriver]]>
@@ -133,7 +133,7 @@ at java.lang.ClassLoader.loadClass(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="FAIL" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InvalidLogin@6d4b1c02]" name="closeApp" is-config="true" duration-ms="49" started-at="2018-03-12T14:55:53Z" finished-at="2018-03-12T14:55:53Z">
+        <test-method status="FAIL" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InvalidLogin@6d4b1c02]" name="closeApp" is-config="true" duration-ms="49" started-at="2018-03-27T13:11:30Z" finished-at="2018-03-27T13:11:30Z">
           <params>
             <param index="0">
               <value>
